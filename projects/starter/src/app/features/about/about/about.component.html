@@ -1,0 +1,33 @@
+<div class="background">
+  <div class="gradient">
+    <div class="container">
+      <h1>{{ 'ng.title.long' | translate }}</h1>
+      <div class="actions">
+        <a [ngClass]="routeAnimationsElements" mat-raised-button class="actions-main" color="primary"
+          routerLink="../feature-list">
+          {{ 'ng.menu.features' | translate }}
+        </a>
+        <a mat-raised-button class="actions-main" color="accent" routerLink="../examples"
+          [ngClass]="routeAnimationsElements">
+          {{ 'ng.menu.examples' | translate }}
+        </a>
+        <a mat-raised-button class="actions-main" color="warn" routerLink="../settings"
+          [ngClass]="routeAnimationsElements">
+          {{ 'ng.about.change-theme' | translate }}
+        </a>
+        <br>
+        <span [ngClass]="routeAnimationsElements">{{ 'ng.about.check-blogs' | translate }}</span>
+        <br>
+        <a mat-raised-button [ngClass]="routeAnimationsElements" target="_blank"
+          href="https://material.io/design/material-theming/overview.html">
+          <fa-icon [icon]="['fab','medium-m']"></fa-icon>
+          Material Theming
+        </a>
+        <a mat-raised-button [ngClass]="routeAnimationsElements" target="_blank" href="https://ngrx.io/">
+          <fa-icon [icon]="['fab','medium-m']"></fa-icon>
+          Ngrx Typescript Tips
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

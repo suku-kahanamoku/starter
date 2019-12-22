@@ -1,0 +1,9 @@
+$ng-nature-primary: mat-palette($mat-brown, 700, 300, 900);
+$ng-nature-accent: mat-palette($mat-deep-purple, 300);
+$ng-nature-warn: mat-palette($mat-red, 600);
+
+$ng-nature-theme: mat-light-theme(
+  $ng-nature-primary,
+  $ng-nature-accent,
+  $ng-nature-warn
+);

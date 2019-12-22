@@ -1,0 +1,9 @@
+$ng-light-primary: mat-palette($mat-grey, 200, 500, 300);
+$ng-light-accent: mat-palette($mat-brown, 200);
+$ng-light-warn: mat-palette($mat-deep-orange, 200);
+
+$ng-light-theme: mat-light-theme(
+  $ng-light-primary,
+  $ng-light-accent,
+  $ng-light-warn
+);
