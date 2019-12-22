@@ -25,12 +25,10 @@
             "tsConfig": "projects/starter/tsconfig.app.json",
             "aot": true,
             "assets": [
-              "projects/starter/src/favicon.ico",
               "projects/starter/src/assets"
             ],
             "styles": [
-              "projects/starter/src/styles-app-loading.scss",
-              "projects/starter/src/styles.scss"
+              "projects/starter/src/styles/styles.scss"
             ],
             "scripts": []
           },
@@ -102,12 +100,10 @@
             "tsConfig": "projects/starter/tsconfig.spec.json",
             "karmaConfig": "projects/starter/karma.conf.js",
             "assets": [
-              "projects/starter/src/favicon.ico",
               "projects/starter/src/assets"
             ],
             "styles": [
-              "projects/starter/src/styles-app-loading.scss",
-              "projects/starter/src/styles.scss"
+              "projects/starter/src/styles/styles.scss"
             ],
             "scripts": []
           },
